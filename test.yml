@@ -5,8 +5,8 @@ resources:
   icon: clock-outline
   source:
     location: Asia/Kolkata
-    start: 09:08 PM
-    stop: 09:20 PM
+    start: ((start))
+    stop: ((stop))
     interval: 5m
 
 jobs:
