@@ -1,6 +1,6 @@
 ---
 resources:
-- name: fixed_time
+- name: fixed_time_manual
   type: time
   icon: clock-outline
   source:
@@ -13,7 +13,7 @@ jobs:
 - name: job
   public: true
   plan:
-  - get: fixed_time
+  - get: fixed_time_manual
     trigger: true
   - task: simple-task
     config:
