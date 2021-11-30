@@ -1,6 +1,6 @@
 ---
 resources:
-- name: every-30s
+- name: every-((val))s
   type: time
   icon: clock-outline
   source:
