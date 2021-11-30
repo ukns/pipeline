@@ -4,7 +4,7 @@ resources:
   type: time
   icon: clock-outline
   source:
-    interval: 30s
+    interval: ((val))s
 
 jobs:
 - name: job
