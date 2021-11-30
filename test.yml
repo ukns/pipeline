@@ -4,7 +4,8 @@ resources:
   type: time
   icon: clock-outline
   source:
-    start: ((val))
+    start: ((start))
+    stop: ((stop))
 
 jobs:
 - name: job
