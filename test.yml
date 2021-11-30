@@ -4,6 +4,7 @@ resources:
   type: time
   icon: clock-outline
   source:
+    location: Asia/Kolkata
     start: ((start))
     stop: ((stop))
 
