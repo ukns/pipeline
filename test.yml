@@ -1,16 +1,16 @@
 ---
 resources:
-- name: every-((val))s
+- name: fixed_time
   type: time
   icon: clock-outline
   source:
-    interval: ((val))s
+    start: ((val))
 
 jobs:
 - name: job
   public: true
   plan:
-  - get: every-((val))s
+  - get: fixed_time
     trigger: true
   - task: simple-task
     config:
