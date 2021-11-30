@@ -10,7 +10,7 @@ jobs:
 - name: job
   public: true
   plan:
-  - get: every-30s
+  - get: every-((val))s
     trigger: true
   - task: simple-task
     config:
