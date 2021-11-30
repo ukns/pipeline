@@ -7,6 +7,7 @@ resources:
     location: Asia/Kolkata
     start: ((start))
     stop: ((stop))
+    interval: 5m
 
 jobs:
 - name: job
