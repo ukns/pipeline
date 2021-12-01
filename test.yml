@@ -11,14 +11,14 @@ jobs:
 - name: job
   public: true
   plan:
-  - get: fixed_time_manual
+#  - get: fixed_time_manual
     trigger: true
   - task: simple-task
     config:
       platform: linux
       image_resource:
         type: registry-image
-        source: { repository: busybox }
+        source: { repository: curlimages/curl }
       run:
         path: echo
         args: ["Hello, world!"]
